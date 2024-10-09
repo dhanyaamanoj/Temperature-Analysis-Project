@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b82b5e8550f6363909e65aadbfacce40 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b82b5e8550f6363909e65aadbfacce40" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b82b5e8550f6363909e65aadbfacce40 = L.map(
+                "map_b82b5e8550f6363909e65aadbfacce40",
+                {
+                    center: [42.2808, -83.743],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a8bcb7eab557b63efefffb2b1b182e20 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a8bcb7eab557b63efefffb2b1b182e20.addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var marker_458c7b3534714e4711a03a61b3a3f494 = L.marker(
+                [41.9164, -84.0158],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_f7c94263ca748cd5c91c5bf26eab2360 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_458c7b3534714e4711a03a61b3a3f494.setIcon(icon_f7c94263ca748cd5c91c5bf26eab2360);
+        
+    
+        var popup_d12b19a995c03772ac23b534aa91d5ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42e1a957c20817ef67ea263f91dab413 = $(`<div id="html_42e1a957c20817ef67ea263f91dab413" style="width: 100.0%; height: 100.0%;">Station ID: USC00200032<br>Name: ADRIAN 2 NNE<br>Mean Max Temp: 153.96 °F<br>Max Temp: 328.00 °F<br>Mean Min Temp: 39.02 °F<br>Min Temp: -278.00 °F</div>`)[0];
+                popup_d12b19a995c03772ac23b534aa91d5ee.setContent(html_42e1a957c20817ef67ea263f91dab413);
+            
+        
+
+        marker_458c7b3534714e4711a03a61b3a3f494.bindPopup(popup_d12b19a995c03772ac23b534aa91d5ee)
+        ;
+
+        
+    
+    
+            var marker_6e0cf0fd844bcc1ee31e27f72fdf82ed = L.marker(
+                [42.2417, -83.6933],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_5d1f5245fa23256c9f499fd6520287a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6e0cf0fd844bcc1ee31e27f72fdf82ed.setIcon(icon_5d1f5245fa23256c9f499fd6520287a1);
+        
+    
+        var popup_e5dc737f5dbd003e955175ecae1e477b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9d804f2ee4ed11255d5fce3ae606e67 = $(`<div id="html_d9d804f2ee4ed11255d5fce3ae606e67" style="width: 100.0%; height: 100.0%;">Station ID: USC00200228<br>Name: ANN ARBOR SE<br>Mean Max Temp: 151.00 °F<br>Max Temp: 333.00 °F<br>Mean Min Temp: 29.16 °F<br>Min Temp: -278.00 °F</div>`)[0];
+                popup_e5dc737f5dbd003e955175ecae1e477b.setContent(html_d9d804f2ee4ed11255d5fce3ae606e67);
+            
+        
+
+        marker_6e0cf0fd844bcc1ee31e27f72fdf82ed.bindPopup(popup_e5dc737f5dbd003e955175ecae1e477b)
+        ;
+
+        
+    
+    
+            var marker_daa16451ed9d5c2a5eb878673674e566 = L.marker(
+                [42.2947, -83.7108],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_4054ac3670f730a3e78f54ff5a6a157e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_daa16451ed9d5c2a5eb878673674e566.setIcon(icon_4054ac3670f730a3e78f54ff5a6a157e);
+        
+    
+        var popup_f1f4141701b4ea985d29701c937ba389 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f576971b3fac02e409c2ac3f91586e51 = $(`<div id="html_f576971b3fac02e409c2ac3f91586e51" style="width: 100.0%; height: 100.0%;">Station ID: USC00200230<br>Name: ANN ARBOR U OF MICH<br>Mean Max Temp: 154.56 °F<br>Max Temp: 328.00 °F<br>Mean Min Temp: 49.15 °F<br>Min Temp: -261.00 °F</div>`)[0];
+                popup_f1f4141701b4ea985d29701c937ba389.setContent(html_f576971b3fac02e409c2ac3f91586e51);
+            
+        
+
+        marker_daa16451ed9d5c2a5eb878673674e566.bindPopup(popup_f1f4141701b4ea985d29701c937ba389)
+        ;
+
+        
+    
+    
+            var marker_5cb25e36a35e603ba61c45db7d9925a9 = L.marker(
+                [42.0636, -83.4358],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_ffacd3cebc44a3f525db34c277c9e5c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5cb25e36a35e603ba61c45db7d9925a9.setIcon(icon_ffacd3cebc44a3f525db34c277c9e5c9);
+        
+    
+        var popup_c3a9e6378e812844ad24c1152056709d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f658e7baff7bd7e261f9756fc71d3bf = $(`<div id="html_2f658e7baff7bd7e261f9756fc71d3bf" style="width: 100.0%; height: 100.0%;">Station ID: USC00201250<br>Name: CARLETON 2W<br>Mean Max Temp: 150.92 °F<br>Max Temp: 322.00 °F<br>Mean Min Temp: 43.96 °F<br>Min Temp: -306.00 °F</div>`)[0];
+                popup_c3a9e6378e812844ad24c1152056709d.setContent(html_2f658e7baff7bd7e261f9756fc71d3bf);
+            
+        
+
+        marker_5cb25e36a35e603ba61c45db7d9925a9.bindPopup(popup_c3a9e6378e812844ad24c1152056709d)
+        ;
+
+        
+    
+    
+            var marker_3f516b306ac5cb75eeca91bf1348cf49 = L.marker(
+                [42.3264, -84.0133],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_fa9677d6ec100225179a98e8b99aa4be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3f516b306ac5cb75eeca91bf1348cf49.setIcon(icon_fa9677d6ec100225179a98e8b99aa4be);
+        
+    
+        var popup_be98aaaeb5bbb265d50ad2ed4db84e38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ee5b3d5cb0f66cd747715e63bec5b67 = $(`<div id="html_2ee5b3d5cb0f66cd747715e63bec5b67" style="width: 100.0%; height: 100.0%;">Station ID: USC00201502<br>Name: CHELSEA<br>Mean Max Temp: 146.20 °F<br>Max Temp: 328.00 °F<br>Mean Min Temp: 32.62 °F<br>Min Temp: -317.00 °F</div>`)[0];
+                popup_be98aaaeb5bbb265d50ad2ed4db84e38.setContent(html_2ee5b3d5cb0f66cd747715e63bec5b67);
+            
+        
+
+        marker_3f516b306ac5cb75eeca91bf1348cf49.bindPopup(popup_be98aaaeb5bbb265d50ad2ed4db84e38)
+        ;
+
+        
+    
+    
+            var marker_875e66a9539f898c836009aa8b3b95ff = L.marker(
+                [41.9553, -83.6489],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_b800dc775431b8f1897fade8229e6c73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_875e66a9539f898c836009aa8b3b95ff.setIcon(icon_b800dc775431b8f1897fade8229e6c73);
+        
+    
+        var popup_bfd68f47c8abcef82839b7fee81dc907 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fedeb3e8f8c2b899c4351c5ed035d17 = $(`<div id="html_5fedeb3e8f8c2b899c4351c5ed035d17" style="width: 100.0%; height: 100.0%;">Station ID: USC00202308<br>Name: DUNDEE<br>Mean Max Temp: 148.10 °F<br>Max Temp: 328.00 °F<br>Mean Min Temp: 39.46 °F<br>Min Temp: -261.00 °F</div>`)[0];
+                popup_bfd68f47c8abcef82839b7fee81dc907.setContent(html_5fedeb3e8f8c2b899c4351c5ed035d17);
+            
+        
+
+        marker_875e66a9539f898c836009aa8b3b95ff.bindPopup(popup_bfd68f47c8abcef82839b7fee81dc907)
+        ;
+
+        
+    
+    
+            var marker_6876dee218bf765bdadbd601d141b4b3 = L.marker(
+                [42.4344, -83.9858],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_121d0f5c8242b7f7ef4fe8c954e828b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6876dee218bf765bdadbd601d141b4b3.setIcon(icon_121d0f5c8242b7f7ef4fe8c954e828b6);
+        
+    
+        var popup_4a5f362c03d2a853af05f22e1cc5f918 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f6dacf0183c94dc9708441b552f1e96 = $(`<div id="html_8f6dacf0183c94dc9708441b552f1e96" style="width: 100.0%; height: 100.0%;">Station ID: USC00203712<br>Name: HELL<br>Mean Max Temp: 160.76 °F<br>Max Temp: 322.00 °F<br>Mean Min Temp: 17.28 °F<br>Min Temp: -322.00 °F</div>`)[0];
+                popup_4a5f362c03d2a853af05f22e1cc5f918.setContent(html_8f6dacf0183c94dc9708441b552f1e96);
+            
+        
+
+        marker_6876dee218bf765bdadbd601d141b4b3.bindPopup(popup_4a5f362c03d2a853af05f22e1cc5f918)
+        ;
+
+        
+    
+    
+            var marker_80e2d77972e6327edabc264fee48ee9a = L.marker(
+                [42.1508, -84.0236],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_f83184fe7d04ce31d9d0c78cddf84e72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_80e2d77972e6327edabc264fee48ee9a.setIcon(icon_f83184fe7d04ce31d9d0c78cddf84e72);
+        
+    
+        var popup_e1c00149de9114e32343523d25ffa102 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b875929e8ac5bf804dbcef674b13f73 = $(`<div id="html_1b875929e8ac5bf804dbcef674b13f73" style="width: 100.0%; height: 100.0%;">Station ID: USC00205050<br>Name: MANCHESTER<br>Mean Max Temp: 149.55 °F<br>Max Temp: 328.00 °F<br>Mean Min Temp: 30.13 °F<br>Min Temp: -306.00 °F</div>`)[0];
+                popup_e1c00149de9114e32343523d25ffa102.setContent(html_1b875929e8ac5bf804dbcef674b13f73);
+            
+        
+
+        marker_80e2d77972e6327edabc264fee48ee9a.bindPopup(popup_e1c00149de9114e32343523d25ffa102)
+        ;
+
+        
+    
+    
+            var marker_dbe803b68942537702c7eb68f97ced03 = L.marker(
+                [42.0811, -83.6769],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_9ebfc96198284b144e700c130594cce8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dbe803b68942537702c7eb68f97ced03.setIcon(icon_9ebfc96198284b144e700c130594cce8);
+        
+    
+        var popup_82dfb42ba6d6cef3e4da2186fb733a44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dcbcb8304a4745a4ba2de13dfa52002 = $(`<div id="html_4dcbcb8304a4745a4ba2de13dfa52002" style="width: 100.0%; height: 100.0%;">Station ID: USC00205451<br>Name: MILAN WWTP<br>Mean Max Temp: 149.34 °F<br>Max Temp: 328.00 °F<br>Mean Min Temp: 36.18 °F<br>Min Temp: -278.00 °F</div>`)[0];
+                popup_82dfb42ba6d6cef3e4da2186fb733a44.setContent(html_4dcbcb8304a4745a4ba2de13dfa52002);
+            
+        
+
+        marker_dbe803b68942537702c7eb68f97ced03.bindPopup(popup_82dfb42ba6d6cef3e4da2186fb733a44)
+        ;
+
+        
+    
+    
+            var marker_c968959e4d35f52706448bd3b6b77fd8 = L.marker(
+                [41.9069, -83.4158],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_b600cb554567fbc0bf9ff3916716920d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c968959e4d35f52706448bd3b6b77fd8.setIcon(icon_b600cb554567fbc0bf9ff3916716920d);
+        
+    
+        var popup_573fc92f944248643365be7fea5f2394 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a21aa8725df8e398555d0bde6db5f5f = $(`<div id="html_4a21aa8725df8e398555d0bde6db5f5f" style="width: 100.0%; height: 100.0%;">Station ID: USC00205563<br>Name: MONROE<br>Mean Max Temp: 149.80 °F<br>Max Temp: 328.00 °F<br>Mean Min Temp: 43.64 °F<br>Min Temp: -267.00 °F</div>`)[0];
+                popup_573fc92f944248643365be7fea5f2394.setContent(html_4a21aa8725df8e398555d0bde6db5f5f);
+            
+        
+
+        marker_c968959e4d35f52706448bd3b6b77fd8.bindPopup(popup_573fc92f944248643365be7fea5f2394)
+        ;
+
+        
+    
+    
+            var marker_c2c30a4d70552953e1d8bbbf12189321 = L.marker(
+                [41.9497, -83.28],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_0924614ccce889a30bf4125a4c077b85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c2c30a4d70552953e1d8bbbf12189321.setIcon(icon_0924614ccce889a30bf4125a4c077b85);
+        
+    
+        var popup_d6d69ff765ec47d4bfceebf502042848 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d3456a0f09309a9463a3ef6d1b30166 = $(`<div id="html_1d3456a0f09309a9463a3ef6d1b30166" style="width: 100.0%; height: 100.0%;">Station ID: USC00205822<br>Name: NEWPORT 4SSE<br>Mean Max Temp: 152.06 °F<br>Max Temp: 344.00 °F<br>Mean Min Temp: 45.38 °F<br>Min Temp: -256.00 °F</div>`)[0];
+                popup_d6d69ff765ec47d4bfceebf502042848.setContent(html_1d3456a0f09309a9463a3ef6d1b30166);
+            
+        
+
+        marker_c2c30a4d70552953e1d8bbbf12189321.bindPopup(popup_d6d69ff765ec47d4bfceebf502042848)
+        ;
+
+        
+    
+    
+            var marker_dc6d42874f78dbcef215b10f6d67363e = L.marker(
+                [42.1611, -83.7819],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_5d83d97c3c927a28b9d8f129394176e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dc6d42874f78dbcef215b10f6d67363e.setIcon(icon_5d83d97c3c927a28b9d8f129394176e1);
+        
+    
+        var popup_61a915c537f97d7418554d6b6f1f69d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a7b19ca00cf4b926cab732db4a0482f = $(`<div id="html_7a7b19ca00cf4b926cab732db4a0482f" style="width: 100.0%; height: 100.0%;">Station ID: USC00207308<br>Name: SALINE<br>Mean Max Temp: 151.25 °F<br>Max Temp: 333.00 °F<br>Mean Min Temp: 19.77 °F<br>Min Temp: -283.00 °F</div>`)[0];
+                popup_61a915c537f97d7418554d6b6f1f69d9.setContent(html_7a7b19ca00cf4b926cab732db4a0482f);
+            
+        
+
+        marker_dc6d42874f78dbcef215b10f6d67363e.bindPopup(popup_61a915c537f97d7418554d6b6f1f69d9)
+        ;
+
+        
+    
+    
+            var marker_7d4b7ed324aa2a39b678cd7696bf2de1 = L.marker(
+                [42.1236, -83.82],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_515fc5b2ce97a55c40d3875cd7d32a13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7d4b7ed324aa2a39b678cd7696bf2de1.setIcon(icon_515fc5b2ce97a55c40d3875cd7d32a13);
+        
+    
+        var popup_570371ffd54ffa7cee9c07e53df83548 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d67b5c8a527587172ec9394082cd759 = $(`<div id="html_7d67b5c8a527587172ec9394082cd759" style="width: 100.0%; height: 100.0%;">Station ID: USC00207312<br>Name: SALINE 4SW<br>Mean Max Temp: 155.77 °F<br>Max Temp: 328.00 °F<br>Mean Min Temp: 35.65 °F<br>Min Temp: -272.00 °F</div>`)[0];
+                popup_570371ffd54ffa7cee9c07e53df83548.setContent(html_7d67b5c8a527587172ec9394082cd759);
+            
+        
+
+        marker_7d4b7ed324aa2a39b678cd7696bf2de1.bindPopup(popup_570371ffd54ffa7cee9c07e53df83548)
+        ;
+
+        
+    
+    
+            var marker_fae6374a231c2bf60b6a370f65d5c2fb = L.marker(
+                [42.0028, -83.9336],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_4f7462c140328310eb18357f9621fdb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fae6374a231c2bf60b6a370f65d5c2fb.setIcon(icon_4f7462c140328310eb18357f9621fdb6);
+        
+    
+        var popup_50546260c86c5608aa66ed0976311665 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86a7eab9ae1d00f79120b87e0906ec36 = $(`<div id="html_86a7eab9ae1d00f79120b87e0906ec36" style="width: 100.0%; height: 100.0%;">Station ID: USC00208080<br>Name: TECUMSEH<br>Mean Max Temp: 156.44 °F<br>Max Temp: 339.00 °F<br>Mean Min Temp: 17.28 °F<br>Min Temp: -278.00 °F</div>`)[0];
+                popup_50546260c86c5608aa66ed0976311665.setContent(html_86a7eab9ae1d00f79120b87e0906ec36);
+            
+        
+
+        marker_fae6374a231c2bf60b6a370f65d5c2fb.bindPopup(popup_50546260c86c5608aa66ed0976311665)
+        ;
+
+        
+    
+    
+            var marker_74f151eac57b0bf3ec64395343b483c5 = L.marker(
+                [42.0283, -84.1108],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_8acdd17e121a55eb0aae9527f52ab02a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_74f151eac57b0bf3ec64395343b483c5.setIcon(icon_8acdd17e121a55eb0aae9527f52ab02a);
+        
+    
+        var popup_64404d8654e2b7c8839d1036d4102661 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e67ad77b6ad6d3e5bff96b7803947650 = $(`<div id="html_e67ad77b6ad6d3e5bff96b7803947650" style="width: 100.0%; height: 100.0%;">Station ID: USC00208202<br>Name: TIPTON 2WNW<br>Mean Max Temp: 150.78 °F<br>Max Temp: 328.00 °F<br>Mean Min Temp: 38.07 °F<br>Min Temp: -250.00 °F</div>`)[0];
+                popup_64404d8654e2b7c8839d1036d4102661.setContent(html_e67ad77b6ad6d3e5bff96b7803947650);
+            
+        
+
+        marker_74f151eac57b0bf3ec64395343b483c5.bindPopup(popup_64404d8654e2b7c8839d1036d4102661)
+        ;
+
+        
+    
+    
+            var marker_8b2362fd808533b0355b121407e497d6 = L.marker(
+                [42.4356, -83.7831],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_6b71b60d7e5de3b2dd82c4b868b88895 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8b2362fd808533b0355b121407e497d6.setIcon(icon_6b71b60d7e5de3b2dd82c4b868b88895);
+        
+    
+        var popup_097d765e9ea97a34f50fc6052b6a4e63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28608de77f5236ca8edc1fbca1b442a3 = $(`<div id="html_28608de77f5236ca8edc1fbca1b442a3" style="width: 100.0%; height: 100.0%;">Station ID: USC00208972<br>Name: WHITMORE LAKE 1NW<br>Mean Max Temp: 141.91 °F<br>Max Temp: 317.00 °F<br>Mean Min Temp: 24.97 °F<br>Min Temp: -322.00 °F</div>`)[0];
+                popup_097d765e9ea97a34f50fc6052b6a4e63.setContent(html_28608de77f5236ca8edc1fbca1b442a3);
+            
+        
+
+        marker_8b2362fd808533b0355b121407e497d6.bindPopup(popup_097d765e9ea97a34f50fc6052b6a4e63)
+        ;
+
+        
+    
+    
+            var marker_944674ec8674b75c059cde0325900e6e = L.marker(
+                [41.5631, -83.4764],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_e4df390458d76e74b7c4f0fb6a58b57b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_944674ec8674b75c059cde0325900e6e.setIcon(icon_e4df390458d76e74b7c4f0fb6a58b57b);
+        
+    
+        var popup_323ee7b830dac8a45aaf2e3d00dbfca3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f638658d55fbba512d6333cb2623432e = $(`<div id="html_f638658d55fbba512d6333cb2623432e" style="width: 100.0%; height: 100.0%;">Station ID: USW00004848<br>Name: TOLEDO METCALF FLD<br>Mean Max Temp: 158.15 °F<br>Max Temp: 333.00 °F<br>Mean Min Temp: 57.32 °F<br>Min Temp: -238.00 °F</div>`)[0];
+                popup_323ee7b830dac8a45aaf2e3d00dbfca3.setContent(html_f638658d55fbba512d6333cb2623432e);
+            
+        
+
+        marker_944674ec8674b75c059cde0325900e6e.bindPopup(popup_323ee7b830dac8a45aaf2e3d00dbfca3)
+        ;
+
+        
+    
+    
+            var marker_978767d5a39e16593a32a3021a682186 = L.marker(
+                [42.2667, -84.4667],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_a898cb8773e36223b3c60c26460ac9aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_978767d5a39e16593a32a3021a682186.setIcon(icon_a898cb8773e36223b3c60c26460ac9aa);
+        
+    
+        var popup_5eb1a951215846b4d55f49ec6e3708b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03f1a184517e1ea9efaf7e7ecd7da9d7 = $(`<div id="html_03f1a184517e1ea9efaf7e7ecd7da9d7" style="width: 100.0%; height: 100.0%;">Station ID: USW00014833<br>Name: JACKSON REYNOLDS FLD<br>Mean Max Temp: 145.95 °F<br>Max Temp: 322.00 °F<br>Mean Min Temp: 37.56 °F<br>Min Temp: -282.00 °F</div>`)[0];
+                popup_5eb1a951215846b4d55f49ec6e3708b0.setContent(html_03f1a184517e1ea9efaf7e7ecd7da9d7);
+            
+        
+
+        marker_978767d5a39e16593a32a3021a682186.bindPopup(popup_5eb1a951215846b4d55f49ec6e3708b0)
+        ;
+
+        
+    
+    
+            var marker_8b0f74aa02c63aa8b2cd4a40d8b704d4 = L.marker(
+                [42.2333, -83.5333],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_4027c895ae0760542a13472fa8ba5b17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8b0f74aa02c63aa8b2cd4a40d8b704d4.setIcon(icon_4027c895ae0760542a13472fa8ba5b17);
+        
+    
+        var popup_a8d504b3bcc0f8df868672f49013029b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39736ecc286fb17c0c38b0325b831f0e = $(`<div id="html_39736ecc286fb17c0c38b0325b831f0e" style="width: 100.0%; height: 100.0%;">Station ID: USW00014853<br>Name: DETROIT WILLOW RUN AP<br>Mean Max Temp: 170.70 °F<br>Max Temp: 361.00 °F<br>Mean Min Temp: 54.64 °F<br>Min Temp: -277.00 °F</div>`)[0];
+                popup_a8d504b3bcc0f8df868672f49013029b.setContent(html_39736ecc286fb17c0c38b0325b831f0e);
+            
+        
+
+        marker_8b0f74aa02c63aa8b2cd4a40d8b704d4.bindPopup(popup_a8d504b3bcc0f8df868672f49013029b)
+        ;
+
+        
+    
+    
+            var marker_f47ce3f905b10442730c57501e389a0d = L.marker(
+                [42.2228, -83.7444],
+                {}
+            ).addTo(map_b82b5e8550f6363909e65aadbfacce40);
+        
+    
+            var icon_95c8699868d4ae42fb6cf68e77ef0b71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f47ce3f905b10442730c57501e389a0d.setIcon(icon_95c8699868d4ae42fb6cf68e77ef0b71);
+        
+    
+        var popup_2997634460618a154587803580e3bb07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e362c70c9a420bf1ba32a667c044db3 = $(`<div id="html_0e362c70c9a420bf1ba32a667c044db3" style="width: 100.0%; height: 100.0%;">Station ID: USW00094889<br>Name: ANN ARBOR MUNI AP<br>Mean Max Temp: 151.46 °F<br>Max Temp: 328.00 °F<br>Mean Min Temp: 24.97 °F<br>Min Temp: -343.00 °F</div>`)[0];
+                popup_2997634460618a154587803580e3bb07.setContent(html_0e362c70c9a420bf1ba32a667c044db3);
+            
+        
+
+        marker_f47ce3f905b10442730c57501e389a0d.bindPopup(popup_2997634460618a154587803580e3bb07)
+        ;
+
+        
+    
+</script>
+</html>
